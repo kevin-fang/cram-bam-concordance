@@ -1,0 +1,1 @@
+[2019-01-16T20:31Z] /usr/local/share/bcbio-nextgen/anaconda/bin/samtools index -@ 1 /cram-bam/NA12878_37/call_cram/work/prealign/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample.bam /cram-bam/NA12878_37/call_cram/work/bcbiotx/tmpeAWEzg/RMNISTHS_30xdownsample.bam.bai

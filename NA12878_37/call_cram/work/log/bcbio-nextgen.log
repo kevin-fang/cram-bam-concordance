@@ -1,0 +1,24 @@
+[2019-01-16T20:25Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-16T20:25Z] Timing: organize samples
+[2019-01-16T20:25Z] multiprocessing: organize_samples
+[2019-01-16T20:25Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-16T20:25Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-16T20:25Z] Downloading GRCh37 samtools from AWS
+[2019-01-16T20:31Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-16T20:31Z] Timing: organize samples
+[2019-01-16T20:31Z] multiprocessing: organize_samples
+[2019-01-16T20:31Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-16T20:31Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-16T20:31Z] Testing minimum versions of installed programs
+[2019-01-16T20:31Z] Timing: alignment preparation
+[2019-01-16T20:31Z] multiprocessing: prep_align_inputs
+[2019-01-16T20:31Z] multiprocessing: disambiguate_split
+[2019-01-16T20:31Z] Timing: alignment
+[2019-01-16T20:31Z] multiprocessing: process_alignment
+[2019-01-16T20:32Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt

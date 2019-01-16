@@ -1,0 +1,522 @@
+{
+    "analysis": [
+        "variant2"
+    ],
+<<<<<<< HEAD
+    "config__algorithm__adapters": [
+        []
+    ],
+    "config__algorithm__align_split_size": [
+        null
+    ],
+    "config__algorithm__aligner": [
+        "bwa"
+    ],
+    "config__algorithm__bam_clean": [
+        "False"
+    ],
+=======
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    "config__algorithm__coverage_interval": [
+        null
+    ],
+    "config__algorithm__effects": [
+        "snpeff"
+    ],
+    "config__algorithm__ensemble": [
+        null
+    ],
+    "config__algorithm__exclude_regions": [
+        []
+    ],
+<<<<<<< HEAD
+    "config__algorithm__mark_duplicates": [
+        "True"
+    ],
+=======
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    "config__algorithm__min_allele_fraction": [
+        10.0
+    ],
+    "config__algorithm__nomap_split_size": [
+        250
+    ],
+    "config__algorithm__nomap_split_targets": [
+        20
+    ],
+    "config__algorithm__qc": [
+        [
+            "contamination",
+            "coverage",
+            "fastqc",
+            "peddy",
+            "picard",
+            "qsignature",
+            "samtools",
+            "variants"
+        ]
+    ],
+    "config__algorithm__recalibrate": [
+<<<<<<< HEAD
+        "gatk"
+=======
+        "False"
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    ],
+    "config__algorithm__tools_off": [
+        []
+    ],
+    "config__algorithm__tools_on": [
+        []
+    ],
+<<<<<<< HEAD
+    "config__algorithm__trim_reads": [
+        "False"
+    ],
+=======
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    "config__algorithm__validate": [
+        null
+    ],
+    "config__algorithm__validate_regions": [
+        null
+    ],
+    "config__algorithm__variant_regions": [
+        null
+    ],
+    "config__algorithm__variantcaller": [
+        [
+            "gatk-haplotype"
+        ]
+    ],
+    "config__algorithm__vcfanno": [
+        []
+    ],
+    "description": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "files": [
+        [
+            {
+                "class": "File",
+                "path": "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam.bai"
+                    }
+                ]
+            }
+        ]
+    ],
+    "genome_build": [
+        "GRCh37"
+    ],
+    "genome_resources__aliases__ensembl": [
+        "homo_sapiens_merged_vep_94_GRCh37"
+    ],
+    "genome_resources__aliases__human": [
+        "True"
+    ],
+    "genome_resources__aliases__snpeff": [
+        "GRCh37.75"
+    ],
+    "genome_resources__rnaseq__gene_bed": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/rnaseq/ref-transcripts.bed"
+        }
+    ],
+    "genome_resources__variation__1000g": [
+        null
+    ],
+    "genome_resources__variation__clinvar": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/clinvar.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/clinvar.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__cosmic": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/cosmic.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/cosmic.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__dbsnp": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/dbsnp-151.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/dbsnp-151.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__encode_blacklist": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__esp": [
+        null
+    ],
+    "genome_resources__variation__exac": [
+        null
+    ],
+    "genome_resources__variation__gnomad_exome": [
+        null
+    ],
+    "genome_resources__variation__lcr": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__polyx": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__train_hapmap": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/hapmap_3.3.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/hapmap_3.3.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__train_indels": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/Mills_and_1000G_gold_standard.indels.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/variation/Mills_and_1000G_gold_standard.indels.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "metadata__batch": [
+        null
+    ],
+    "metadata__phenotype": [
+        ""
+    ],
+<<<<<<< HEAD
+    "reference__bwa__indexes": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/bwa/GRCh37.fa.amb",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/bwa/GRCh37.fa.ann"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/bwa/GRCh37.fa.bwt"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/bwa/GRCh37.fa.pac"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/bwa/GRCh37.fa.sa"
+                }
+            ]
+        }
+    ],
+=======
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    "reference__fasta__base": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa.fai"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.dict"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa.gz"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa.gz.gzi"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa.gz.fai"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37-resources.yaml"
+                }
+            ]
+        }
+    ],
+    "reference__genome_context": [
+        [
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/bad_promoter.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/bad_promoter.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc15.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc15.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc15to20.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc15to20.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc20to25.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc20to25.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc25to30.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc25to30.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc65to70.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc65to70.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc70to75.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc70to75.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc75to80.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc75to80.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc80to85.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc80to85.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc85.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/gc85.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/heng_um75-hs37d5.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/heng_um75-hs37d5.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/low_complexity_51to200bp.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/low_complexity_51to200bp.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/low_complexity_gt200bp.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/low_complexity_gt200bp.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/self_chain.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/GA4GH/self_chain.bed.gz.tbi"
+                    }
+                ]
+            },
+            {
+                "class": "File",
+                "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz.tbi"
+                    }
+                ]
+            }
+        ]
+    ],
+    "reference__rtg": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/rtg--GRCh37.sdf-wf.tar.gz"
+        }
+    ],
+    "reference__snpeff__GRCh37_75": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/snpeff--GRCh37.75-wf.tar.gz"
+        }
+    ],
+    "reference__versions": [
+        {
+            "class": "File",
+            "path": "keep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/versions.csv"
+        }
+    ],
+    "resources": [
+        "{}"
+    ],
+<<<<<<< HEAD
+    "rgnames__lane": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "rgnames__lb": [
+        null
+    ],
+    "rgnames__pl": [
+        "illumina"
+    ],
+    "rgnames__pu": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "rgnames__rg": [
+        "RMNISTHS_30xdownsample"
+    ],
+=======
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    "rgnames__sample": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "vrn_file": [
+        null
+    ]
+}

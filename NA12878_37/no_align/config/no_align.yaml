@@ -1,0 +1,17 @@
+details:
+- algorithm:
+<<<<<<< HEAD
+    aligner: bwa
+    recalibrate: gatk
+=======
+    aligner: false
+>>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: RMNISTHS_30xdownsample
+  files:
+  - keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
+  genome_build: GRCh37
+fc_name: no_align
+upload:
+  dir: ../final

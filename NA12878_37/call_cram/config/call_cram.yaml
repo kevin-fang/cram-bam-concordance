@@ -1,0 +1,13 @@
+details:
+- algorithm:
+    aligner: false
+    archive: cram-lossless
+    variantcaller: gatk-haplotype
+  analysis: variant2
+  description: RMNISTHS_30xdownsample
+  files:
+  - /cram-bam/RMNISTHS_30xdownsample.bam
+  genome_build: GRCh37
+fc_name: call_cram
+upload:
+  dir: ../final
