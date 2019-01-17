@@ -14,13 +14,8 @@ resources:
   # default options, used if other items below are not present
   # avoids needing to configure/adjust for every program
   default:
-<<<<<<< HEAD
     memory: 3g
     cores: 4
-=======
-    memory: 16g
-    cores: 16
->>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
     jvm_opts: ["-Xms750m", "-Xmx3500m"]
   gatk:
     jvm_opts: ["-Xms500m", "-Xmx3500m"]
@@ -39,11 +34,7 @@ resources:
 
 # Location of galaxy configuration file, which has pointers to reference data
 # https://bcbio-nextgen.readthedocs.org/en/latest/contents/configuration.html#reference-genome-files
-<<<<<<< HEAD
 galaxy_config: /usr/local/share/bcbio-nextgen/galaxy/
-=======
-galaxy_config: /home/kfang/install/bcbio-vm/data/galaxy/
->>>>>>> 68f2a1c4ca3717f4d73333c03ddf131ca8851f74
 
 arvados:
   reference: su92l-4zz18-hc9ln1agfzrgn3h

@@ -1,29 +1,16 @@
-[2019-01-16T20:25Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-16T20:25Z] Resource requests: sambamba, samtools; memory: 3.00, 3.00; cores: 16, 16
-[2019-01-16T20:25Z] Configuring 1 jobs to run, using 8 cores each with 24.1g of memory reserved for each job
-[2019-01-16T20:25Z] Timing: organize samples
-[2019-01-16T20:25Z] multiprocessing: organize_samples
-[2019-01-16T20:25Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-16T20:25Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-16T20:25Z] Downloading GRCh37 samtools from AWS
-[2019-01-16T20:31Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-16T20:31Z] Resource requests: sambamba, samtools; memory: 3.00, 3.00; cores: 4, 4
-[2019-01-16T20:31Z] Configuring 1 jobs to run, using 1 cores each with 3.00g of memory reserved for each job
-[2019-01-16T20:31Z] Timing: organize samples
-[2019-01-16T20:31Z] multiprocessing: organize_samples
-[2019-01-16T20:31Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-16T20:31Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-16T20:31Z] Testing minimum versions of installed programs
-[2019-01-16T20:31Z] Timing: alignment preparation
-[2019-01-16T20:31Z] multiprocessing: prep_align_inputs
-[2019-01-16T20:31Z] multiprocessing: disambiguate_split
-[2019-01-16T20:31Z] Timing: alignment
-[2019-01-16T20:31Z] multiprocessing: process_alignment
-[2019-01-16T20:31Z] Index BAM file: RMNISTHS_30xdownsample.bam
-[2019-01-16T20:32Z] Uncaught exception occurred
-Traceback (most recent call last):
-  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
-    _do_run(cmd, checks, log_stdout, env=env)
-  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
-    line = s.stdout.readline()
-KeyboardInterrupt
+[2019-01-17T16:34Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T16:36Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T16:37Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T16:37Z] Resource requests: sambamba, samtools; memory: 3.00, 3.00; cores: 4, 4
+[2019-01-17T16:37Z] Configuring 1 jobs to run, using 1 cores each with 3.00g of memory reserved for each job
+[2019-01-17T16:37Z] Timing: organize samples
+[2019-01-17T16:37Z] multiprocessing: organize_samples
+[2019-01-17T16:37Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T16:37Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T16:37Z] Testing minimum versions of installed programs
+[2019-01-17T16:37Z] Timing: alignment preparation
+[2019-01-17T16:37Z] multiprocessing: prep_align_inputs
+[2019-01-17T16:37Z] multiprocessing: disambiguate_split
+[2019-01-17T16:37Z] Timing: alignment
+[2019-01-17T16:37Z] multiprocessing: process_alignment
+[2019-01-17T16:37Z] Index BAM file: RMNISTHS_30xdownsample.bam
