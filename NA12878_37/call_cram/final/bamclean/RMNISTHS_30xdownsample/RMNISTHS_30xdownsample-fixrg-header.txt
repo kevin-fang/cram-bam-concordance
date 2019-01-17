@@ -1,0 +1,224 @@
+@HD	VN:1.4	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621
+@SQ	SN:2	LN:243199373
+@SQ	SN:3	LN:198022430
+@SQ	SN:4	LN:191154276
+@SQ	SN:5	LN:180915260
+@SQ	SN:6	LN:171115067
+@SQ	SN:7	LN:159138663
+@SQ	SN:8	LN:146364022
+@SQ	SN:9	LN:141213431
+@SQ	SN:10	LN:135534747
+@SQ	SN:11	LN:135006516
+@SQ	SN:12	LN:133851895
+@SQ	SN:13	LN:115169878
+@SQ	SN:14	LN:107349540
+@SQ	SN:15	LN:102531392
+@SQ	SN:16	LN:90354753
+@SQ	SN:17	LN:81195210
+@SQ	SN:18	LN:78077248
+@SQ	SN:19	LN:59128983
+@SQ	SN:20	LN:63025520
+@SQ	SN:21	LN:48129895
+@SQ	SN:22	LN:51304566
+@SQ	SN:X	LN:155270560
+@SQ	SN:Y	LN:59373566
+@SQ	SN:MT	LN:16569
+@SQ	SN:GL000207.1	LN:4262
+@SQ	SN:GL000226.1	LN:15008
+@SQ	SN:GL000229.1	LN:19913
+@SQ	SN:GL000231.1	LN:27386
+@SQ	SN:GL000210.1	LN:27682
+@SQ	SN:GL000239.1	LN:33824
+@SQ	SN:GL000235.1	LN:34474
+@SQ	SN:GL000201.1	LN:36148
+@SQ	SN:GL000247.1	LN:36422
+@SQ	SN:GL000245.1	LN:36651
+@SQ	SN:GL000197.1	LN:37175
+@SQ	SN:GL000203.1	LN:37498
+@SQ	SN:GL000246.1	LN:38154
+@SQ	SN:GL000249.1	LN:38502
+@SQ	SN:GL000196.1	LN:38914
+@SQ	SN:GL000248.1	LN:39786
+@SQ	SN:GL000244.1	LN:39929
+@SQ	SN:GL000238.1	LN:39939
+@SQ	SN:GL000202.1	LN:40103
+@SQ	SN:GL000234.1	LN:40531
+@SQ	SN:GL000232.1	LN:40652
+@SQ	SN:GL000206.1	LN:41001
+@SQ	SN:GL000240.1	LN:41933
+@SQ	SN:GL000236.1	LN:41934
+@SQ	SN:GL000241.1	LN:42152
+@SQ	SN:GL000243.1	LN:43341
+@SQ	SN:GL000242.1	LN:43523
+@SQ	SN:GL000230.1	LN:43691
+@SQ	SN:GL000237.1	LN:45867
+@SQ	SN:GL000233.1	LN:45941
+@SQ	SN:GL000204.1	LN:81310
+@SQ	SN:GL000198.1	LN:90085
+@SQ	SN:GL000208.1	LN:92689
+@SQ	SN:GL000191.1	LN:106433
+@SQ	SN:GL000227.1	LN:128374
+@SQ	SN:GL000228.1	LN:129120
+@SQ	SN:GL000214.1	LN:137718
+@SQ	SN:GL000221.1	LN:155397
+@SQ	SN:GL000209.1	LN:159169
+@SQ	SN:GL000218.1	LN:161147
+@SQ	SN:GL000220.1	LN:161802
+@SQ	SN:GL000213.1	LN:164239
+@SQ	SN:GL000211.1	LN:166566
+@SQ	SN:GL000199.1	LN:169874
+@SQ	SN:GL000217.1	LN:172149
+@SQ	SN:GL000216.1	LN:172294
+@SQ	SN:GL000215.1	LN:172545
+@SQ	SN:GL000205.1	LN:174588
+@SQ	SN:GL000219.1	LN:179198
+@SQ	SN:GL000224.1	LN:179693
+@SQ	SN:GL000223.1	LN:180455
+@SQ	SN:GL000195.1	LN:182896
+@SQ	SN:GL000212.1	LN:186858
+@SQ	SN:GL000222.1	LN:186861
+@SQ	SN:GL000200.1	LN:187035
+@SQ	SN:GL000193.1	LN:189789
+@SQ	SN:GL000194.1	LN:191469
+@SQ	SN:GL000225.1	LN:211173
+@SQ	SN:GL000192.1	LN:547496
+@SQ	SN:ERCC-00002	LN:1061
+@SQ	SN:ERCC-00003	LN:1023
+@SQ	SN:ERCC-00004	LN:523
+@SQ	SN:ERCC-00007	LN:1135
+@SQ	SN:ERCC-00009	LN:984
+@SQ	SN:ERCC-00012	LN:994
+@SQ	SN:ERCC-00013	LN:808
+@SQ	SN:ERCC-00014	LN:1957
+@SQ	SN:ERCC-00016	LN:844
+@SQ	SN:ERCC-00017	LN:1136
+@SQ	SN:ERCC-00018	LN:1026
+@SQ	SN:ERCC-00019	LN:644
+@SQ	SN:ERCC-00022	LN:751
+@SQ	SN:ERCC-00023	LN:273
+@SQ	SN:ERCC-00024	LN:536
+@SQ	SN:ERCC-00025	LN:1994
+@SQ	SN:ERCC-00028	LN:1130
+@SQ	SN:ERCC-00031	LN:1138
+@SQ	SN:ERCC-00033	LN:2022
+@SQ	SN:ERCC-00034	LN:1019
+@SQ	SN:ERCC-00035	LN:1130
+@SQ	SN:ERCC-00039	LN:740
+@SQ	SN:ERCC-00040	LN:744
+@SQ	SN:ERCC-00041	LN:1123
+@SQ	SN:ERCC-00042	LN:1023
+@SQ	SN:ERCC-00043	LN:1023
+@SQ	SN:ERCC-00044	LN:1156
+@SQ	SN:ERCC-00046	LN:522
+@SQ	SN:ERCC-00048	LN:992
+@SQ	SN:ERCC-00051	LN:274
+@SQ	SN:ERCC-00053	LN:1023
+@SQ	SN:ERCC-00054	LN:274
+@SQ	SN:ERCC-00057	LN:1021
+@SQ	SN:ERCC-00058	LN:1136
+@SQ	SN:ERCC-00059	LN:525
+@SQ	SN:ERCC-00060	LN:523
+@SQ	SN:ERCC-00061	LN:1136
+@SQ	SN:ERCC-00062	LN:1023
+@SQ	SN:ERCC-00067	LN:644
+@SQ	SN:ERCC-00069	LN:1137
+@SQ	SN:ERCC-00071	LN:642
+@SQ	SN:ERCC-00073	LN:603
+@SQ	SN:ERCC-00074	LN:522
+@SQ	SN:ERCC-00075	LN:1023
+@SQ	SN:ERCC-00076	LN:642
+@SQ	SN:ERCC-00077	LN:273
+@SQ	SN:ERCC-00078	LN:993
+@SQ	SN:ERCC-00079	LN:644
+@SQ	SN:ERCC-00081	LN:534
+@SQ	SN:ERCC-00083	LN:1023
+@SQ	SN:ERCC-00084	LN:994
+@SQ	SN:ERCC-00085	LN:844
+@SQ	SN:ERCC-00086	LN:1020
+@SQ	SN:ERCC-00092	LN:1124
+@SQ	SN:ERCC-00095	LN:521
+@SQ	SN:ERCC-00096	LN:1107
+@SQ	SN:ERCC-00097	LN:523
+@SQ	SN:ERCC-00098	LN:1143
+@SQ	SN:ERCC-00099	LN:1350
+@SQ	SN:ERCC-00104	LN:2022
+@SQ	SN:ERCC-00108	LN:1022
+@SQ	SN:ERCC-00109	LN:536
+@SQ	SN:ERCC-00111	LN:994
+@SQ	SN:ERCC-00112	LN:1136
+@SQ	SN:ERCC-00113	LN:840
+@SQ	SN:ERCC-00116	LN:1991
+@SQ	SN:ERCC-00117	LN:1136
+@SQ	SN:ERCC-00120	LN:536
+@SQ	SN:ERCC-00123	LN:1022
+@SQ	SN:ERCC-00126	LN:1119
+@SQ	SN:ERCC-00128	LN:1133
+@SQ	SN:ERCC-00130	LN:1059
+@SQ	SN:ERCC-00131	LN:771
+@SQ	SN:ERCC-00134	LN:274
+@SQ	SN:ERCC-00136	LN:1033
+@SQ	SN:ERCC-00137	LN:537
+@SQ	SN:ERCC-00138	LN:1022
+@SQ	SN:ERCC-00142	LN:493
+@SQ	SN:ERCC-00143	LN:784
+@SQ	SN:ERCC-00144	LN:538
+@SQ	SN:ERCC-00145	LN:1042
+@SQ	SN:ERCC-00147	LN:1023
+@SQ	SN:ERCC-00148	LN:494
+@SQ	SN:ERCC-00150	LN:743
+@SQ	SN:ERCC-00154	LN:537
+@SQ	SN:ERCC-00156	LN:494
+@SQ	SN:ERCC-00157	LN:1019
+@SQ	SN:ERCC-00158	LN:1021
+@SQ	SN:ERCC-00160	LN:743
+@SQ	SN:ERCC-00162	LN:523
+@SQ	SN:ERCC-00163	LN:543
+@SQ	SN:ERCC-00164	LN:1022
+@SQ	SN:ERCC-00165	LN:872
+@SQ	SN:ERCC-00168	LN:1024
+@SQ	SN:ERCC-00170	LN:1024
+@SQ	SN:ERCC-00171	LN:505
+@SQ	SN:080418_Consensus_Vector_Sequence_NIST_SEQUENCING_ASSEMBLY_noRestrict_rev	LN:2732
+@PG	ID:GATK PrintReads	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_1a.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-AF9294A	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-20A4EDA3	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_1b.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-23F8AE7B	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-3CB8F877	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_2a.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-5B98DDF5	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-97E817D	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_2b.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-38E2BE62	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-273DE47D	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_3.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-5E36FDA7	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-921466	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_4.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-6C15FC48	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-6C164E72	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_5.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-DA44D40	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-431DAB6	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_6.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-7E779B72	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-536DDE84	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_7.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-5EFD4480	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-374E4F03	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_8.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-3C720859	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-5EE5799B	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_9.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-751AD596	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-3AF923E4	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_10.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-5AC22442	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-2E79FDEC	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_11.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-56D3E347	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-73264FD0	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_12.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-1DAE607B	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-1AE8F6AB	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_13.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-2967AFB7	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-53BEB524	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_14.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-AC21333	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-75A798DD	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_15_16.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-1642DD8	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-398E0843	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_17_18.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-2632FFF7	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-2337B4B	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_19_20.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-7E5FBF6C	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-764DB5D7	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_21_22.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK PrintReads-5F3CADC5	VN:2.8-1-g932cd3a	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
+@PG	ID:GATK IndelRealigner-14499B92	VN:2.8-1-g932cd3a	CL:knownAlleles=[] targetIntervals=/projects/scratch-data-backup/justin.zook/NA12878/RMNISTHS/RMNISTHS_X_Y_MT.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=80000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null

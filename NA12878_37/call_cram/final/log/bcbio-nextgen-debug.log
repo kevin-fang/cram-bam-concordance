@@ -1,0 +1,15 @@
+[2019-01-17T21:00Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/final/bcbio_system-merged.yaml
+[2019-01-17T21:00Z] Resource requests: sambamba, samtools; memory: 3.00, 3.00; cores: 4, 4
+[2019-01-17T21:00Z] Configuring 2 jobs to run, using 4 cores each with 12.1g of memory reserved for each job
+[2019-01-17T21:00Z] Timing: organize samples
+[2019-01-17T21:00Z] multiprocessing: organize_samples
+[2019-01-17T21:00Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T21:00Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T21:00Z] Testing minimum versions of installed programs
+[2019-01-17T21:00Z] Timing: alignment preparation
+[2019-01-17T21:00Z] multiprocessing: prep_align_inputs
+[2019-01-17T21:00Z] multiprocessing: disambiguate_split
+[2019-01-17T21:00Z] Timing: alignment
+[2019-01-17T21:00Z] multiprocessing: process_alignment
+[2019-01-17T21:00Z] Create empty RG header: RMNISTHS_30xdownsample
+[2019-01-17T21:00Z] Fix read groups: RMNISTHS_30xdownsample

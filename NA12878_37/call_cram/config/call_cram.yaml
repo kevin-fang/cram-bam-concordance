@@ -2,7 +2,8 @@ details:
 - algorithm:
     aligner: false
     archive: cram-lossless
-    variantcaller: gatk-haplotype
+    bam_clean: fixrg
+#    variantcaller: gatk-haplotype
   analysis: variant2
   description: RMNISTHS_30xdownsample
   files:

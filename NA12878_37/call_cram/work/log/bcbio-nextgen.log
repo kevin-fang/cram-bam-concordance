@@ -1,13 +1,124 @@
-[2019-01-17T16:34Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-17T16:36Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-17T16:37Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-17T16:37Z] Timing: organize samples
-[2019-01-17T16:37Z] multiprocessing: organize_samples
-[2019-01-17T16:37Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-17T16:37Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-17T16:37Z] Testing minimum versions of installed programs
-[2019-01-17T16:37Z] Timing: alignment preparation
-[2019-01-17T16:37Z] multiprocessing: prep_align_inputs
-[2019-01-17T16:37Z] multiprocessing: disambiguate_split
-[2019-01-17T16:37Z] Timing: alignment
-[2019-01-17T16:37Z] multiprocessing: process_alignment
+[2019-01-17T19:40Z] System YAML configuration: /cram-bam/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T19:40Z] Timing: organize samples
+[2019-01-17T19:40Z] multiprocessing: organize_samples
+[2019-01-17T19:40Z] Using input YAML configuration: /cram-bam/call_cram/config/call_cram.yaml
+[2019-01-17T19:40Z] Checking sample YAML configuration: /cram-bam/call_cram/config/call_cram.yaml
+[2019-01-17T19:40Z] Testing minimum versions of installed programs
+[2019-01-17T19:40Z] Timing: alignment preparation
+[2019-01-17T19:40Z] multiprocessing: prep_align_inputs
+[2019-01-17T19:40Z] multiprocessing: disambiguate_split
+[2019-01-17T19:40Z] Timing: alignment
+[2019-01-17T19:40Z] multiprocessing: process_alignment
+[2019-01-17T19:41Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T19:41Z] Timing: organize samples
+[2019-01-17T19:41Z] multiprocessing: organize_samples
+[2019-01-17T19:41Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T19:41Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T19:41Z] Testing minimum versions of installed programs
+[2019-01-17T19:41Z] Timing: alignment preparation
+[2019-01-17T19:41Z] multiprocessing: prep_align_inputs
+[2019-01-17T19:41Z] multiprocessing: disambiguate_split
+[2019-01-17T19:41Z] Timing: alignment
+[2019-01-17T19:41Z] multiprocessing: process_alignment
+[2019-01-17T20:22Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:22Z] Timing: organize samples
+[2019-01-17T20:22Z] multiprocessing: organize_samples
+[2019-01-17T20:22Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:22Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:22Z] Testing minimum versions of installed programs
+[2019-01-17T20:22Z] Timing: alignment preparation
+[2019-01-17T20:22Z] multiprocessing: prep_align_inputs
+[2019-01-17T20:22Z] multiprocessing: disambiguate_split
+[2019-01-17T20:22Z] Timing: alignment
+[2019-01-17T20:22Z] multiprocessing: process_alignment
+[2019-01-17T20:32Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt
+[2019-01-17T20:32Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:32Z] Timing: organize samples
+[2019-01-17T20:32Z] multiprocessing: organize_samples
+[2019-01-17T20:32Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:32Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:32Z] Testing minimum versions of installed programs
+[2019-01-17T20:32Z] Timing: alignment preparation
+[2019-01-17T20:32Z] multiprocessing: prep_align_inputs
+[2019-01-17T20:32Z] multiprocessing: disambiguate_split
+[2019-01-17T20:32Z] Timing: alignment
+[2019-01-17T20:32Z] multiprocessing: process_alignment
+[2019-01-17T20:32Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt
+[2019-01-17T20:32Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:32Z] Timing: organize samples
+[2019-01-17T20:32Z] multiprocessing: organize_samples
+[2019-01-17T20:32Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:32Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:32Z] Testing minimum versions of installed programs
+[2019-01-17T20:32Z] Timing: alignment preparation
+[2019-01-17T20:32Z] multiprocessing: prep_align_inputs
+[2019-01-17T20:32Z] multiprocessing: disambiguate_split
+[2019-01-17T20:32Z] Timing: alignment
+[2019-01-17T20:32Z] multiprocessing: process_alignment
+[2019-01-17T20:33Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt
+[2019-01-17T20:35Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:35Z] Timing: organize samples
+[2019-01-17T20:35Z] multiprocessing: organize_samples
+[2019-01-17T20:35Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:35Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:35Z] Testing minimum versions of installed programs
+[2019-01-17T20:35Z] Timing: alignment preparation
+[2019-01-17T20:35Z] multiprocessing: prep_align_inputs
+[2019-01-17T20:35Z] multiprocessing: disambiguate_split
+[2019-01-17T20:35Z] Timing: alignment
+[2019-01-17T20:35Z] multiprocessing: process_alignment
+[2019-01-17T20:35Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; samtools view -H keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam | grep -v ^@RG > /cram-bam/NA12878_37/call_cram/work/bamclean/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample-fixrg-header.txt
+[E::hts_open_format] Failed to open file keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
+samtools view: failed to open "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam" for reading: Protocol not supported
+' returned non-zero exit status 1
+[2019-01-17T20:55Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:55Z] Timing: organize samples
+[2019-01-17T20:55Z] multiprocessing: organize_samples
+[2019-01-17T20:55Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:55Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:55Z] Downloading GRCh37 samtools from AWS
+[2019-01-17T20:57Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-17T20:57Z] Timing: organize samples
+[2019-01-17T20:57Z] multiprocessing: organize_samples
+[2019-01-17T20:57Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:57Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-17T20:57Z] Testing minimum versions of installed programs
+[2019-01-17T20:57Z] Timing: alignment preparation
+[2019-01-17T20:57Z] multiprocessing: prep_align_inputs
+[2019-01-17T20:57Z] multiprocessing: disambiguate_split
+[2019-01-17T20:57Z] Timing: alignment
+[2019-01-17T20:57Z] multiprocessing: process_alignment
+[2019-01-17T20:57Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; samtools view -H keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam | grep -v ^@RG > /cram-bam/NA12878_37/call_cram/work/bamclean/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample-fixrg-header.txt
+[E::hts_open_format] Failed to open file keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
+samtools view: failed to open "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam" for reading: Protocol not supported
+' returned non-zero exit status 1
