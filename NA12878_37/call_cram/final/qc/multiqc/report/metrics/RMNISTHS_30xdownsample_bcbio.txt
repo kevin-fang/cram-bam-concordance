@@ -1,0 +1,17 @@
+%GC	39
+Average_insert_size	549.7
+Average_read_length	148.0
+Avg_coverage	33
+Duplicates	0
+Duplicates_pct	0.0
+Mapped_paired_reads	691231815
+Mapped_reads	693699646
+Mapped_reads_pct	99.64537447135082
+Mapped_unique_reads	696355611
+Name	RMNISTHS_30xdownsample
+Quality_format	standard
+Sequence_length	30-148
+Sequences_flagged_as_poor_quality	0
+Total_reads	696168437
+sample	RMNISTHS_30xdownsample
+rRNA_rate	NA

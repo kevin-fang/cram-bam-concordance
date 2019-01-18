@@ -1,0 +1,16 @@
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_base_N_content.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_base_sequence_content.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_base_sequence_quality.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_sequence_GC_content.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_sequence_quality_scores.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Per_tile_sequence_quality.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/RMNISTHS_30xdownsample.zip
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/Sequence_Length_Distribution.tsv
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/fastqc_data.txt
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/fastqc_report.html
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/samtools/RMNISTHS_30xdownsample-idxstats.txt
+/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/samtools/RMNISTHS_30xdownsample.txt
+/cram-bam/NA12878_37/call_cram/final/qc/multiqc/report/metrics/target_info.yaml
+htseq-count/*summary
+trimmed
+/cram-bam/NA12878_37/call_cram/final/qc/multiqc/report/metrics/RMNISTHS_30xdownsample_bcbio.txt

@@ -1,0 +1,4 @@
+coverage_bed_info: &id001 {bed: callable regions}
+coverage_interval: null
+genome_info: {name: GRCh37, size: 3101804739}
+variants_regions_info: *id001

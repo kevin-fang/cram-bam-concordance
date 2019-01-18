@@ -1,5 +1,6 @@
 cwlVersion: v1.0
-class: CommandLineTool
+class: Workflow
+
 
 $namespaces:
   arv: "http://arvados.org/cwl#"
@@ -8,32 +9,37 @@ $namespaces:
 requirements:
   - class: ScatterFeatureRequirement
   - class: DockerRequirement
-    dockerPull: kfangcurii/bcbio
+    dockerPull: kfangcurii/bcbioarvados
+  - class: SubworkflowFeatureRequirement
+  - class: InlineJavascriptRequirement
 
 inputs:
   bamDirectory:
     type: Directory
+  pythonScript:
+    type: File
+
+outputs:
+  processed:
+    type: File[]
+    outputSource: cramConversion/cram
 
 steps:
   jobCreation:
     run: jobCreation.cwl
     in:
       bamDirectory: bamDirectory
-    out:
-      bcbioJobs:
-        type: Directory
-        outputBinding:
-          glob: jobs/
+      script: pythonScript
+    out: [out1]
   readJobList:
     run: readJobList.cwl
     in:
-      inDir: jobCreation/bcbioJobs
-    out: [jobs]
-
+      inDir: jobCreation/out1
+    out: [yamls]
   cramConversion:
     run: cramConversion.cwl
     scatter: [job]
     scatterMethod: dotproduct
     in:
-      jobFiles: jobCreation/bcbioJobs
-      job: readJobList/jobs
+      job: readJobList/yamls
+    out: [cram]

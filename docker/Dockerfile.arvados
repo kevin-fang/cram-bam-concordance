@@ -14,4 +14,6 @@ RUN rm -rf /usr/local/share/bcbio-nextgen/galaxy && \
     touch picard_index.loc && \
     echo "GRCh37\tGRCh37\tHuman (GRCh37)\tkeep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa" >> "$(echo picard_index.loc)" && \
     touch gatk_sorted_picard_index.loc && \
-    echo "GRCh37\tGRCh37\tHuman (GRCh37)\tkeep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa" >> "$(echo gatk_sorted_picard_index.loc)"
+    echo "GRCh37\tGRCh37\tHuman (GRCh37)\tkeep:574e3b6b5fc168327171c25f9663fc34+40120/GRCh37/seq/GRCh37.fa" >> "$(echo gatk_sorted_picard_index.loc)" && \
+    cd .. && \
+    echo "resources:\n  default:\n    memory: 3g\n    cores: 4\n    jvm_opts: [\"-Xms750m\", \"-Xmx3500m\"]\ngalaxy_config: /usr/local/share/bcbio-nextgen/galaxy/" >> "$(echo bcbio_system.yaml)" 

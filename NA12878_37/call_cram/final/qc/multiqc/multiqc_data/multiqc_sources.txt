@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+bcbio	all_sections	RMNISTHS_30xdownsample	/cram-bam/NA12878_37/call_cram/final/qc/multiqc/report/metrics/RMNISTHS_30xdownsample_bcbio.txt
+FastQC	all_sections	RMNISTHS_30xdownsample	/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/fastqc_data.txt
+Samtools	stats	RMNISTHS_30xdownsample	/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/samtools/RMNISTHS_30xdownsample.txt
+Samtools	idxstats	RMNISTHS_30xdownsample-idxstats	/cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/samtools/RMNISTHS_30xdownsample-idxstats.txt

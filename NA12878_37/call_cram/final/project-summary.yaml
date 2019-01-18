@@ -1,0 +1,83 @@
+date: '2019-01-18 03:26:55.342919'
+upload: /cram-bam/NA12878_37/call_cram/final
+bcbio_system: ''
+samples:
+- description: RMNISTHS_30xdownsample
+  dirs:
+    fastq: null
+    galaxy: /usr/local/share/bcbio-nextgen/galaxy
+    work: /cram-bam/NA12878_37/call_cram/final
+  genome_build: GRCh37
+  genome_resources:
+    aliases:
+      ensembl: homo_sapiens_merged_vep_94_GRCh37
+      human: true
+      snpeff: GRCh37.75
+    coverage:
+      MIG: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/prioritization/MIG.bed
+      coverage_problem_dir: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/problem_regions
+    rnaseq:
+      dexseq: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/ref-transcripts.dexseq.gff3
+      gene_bed: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/ref-transcripts.bed
+      rRNA_fa: ../rnaseq/rRNA.fa
+      refflat: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/ref-transcripts.refFlat
+      transcriptome_index:
+        tophat: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/tophat/GRCh37_transcriptome.ver
+      transcripts: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/ref-transcripts.gtf
+      transcripts_mask: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/rnaseq/ref-transcripts-mask.gtf
+    srnaseq:
+      mint_lookup: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/LookupTable.tRFs.MINTmap_v1.txt
+      mint_other: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/OtherAnnotations.MINTmap_v1.txt
+      mint_space: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/tRNAspace.Spliced.Sequences.MINTmap_v1.fa
+      mirbase_hairpin: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/hairpin.fa
+      mirbase_mature: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/mature.fa
+      mirdeep2_fasta: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/Rfam_for_miRDeep.fa
+      srna_transcripts: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/srna-transcripts.gtf
+      trna_fasta: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/srnaseq/trna_mature_pre.fa
+    variation:
+      1000g: ../variation/1000g.vcf.gz
+      ancestral: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/human_ancestor.fa.gz
+      clinvar: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/clinvar.vcf.gz
+      cosmic: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/cosmic.vcf.gz
+      dbnsfp: ../variation/dbNSFP.txt.gz
+      dbscsnv: ../variation/dbscSNV.txt.gz
+      dbsnp: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/dbsnp-151.vcf.gz
+      editing: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/editing/RADAR.bed.gz
+      encode_blacklist: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz
+      esp: ../variation/esp.vcf.gz
+      exac: ../variation/exac.vcf.gz
+      gc_profile: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/gc/GC_profile.1000bp.cnp
+      genesplicer: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/genesplicer
+      genotype2phenotype: ../variation/G2P.csv
+      germline_het_pon: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/germline_het_pon.bed.gz
+      gnomad_exome: ../variation/gnomad_exome.vcf.gz
+      lcr: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz
+      polyx: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz
+      qsignature: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/qsignature.vcf
+      sv_repeat: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/coverage/problem_regions/repeats/sv_repeat_telomere_centromere.bed
+      train_1000g: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/1000G_phase1.snps.high_confidence.vcf.gz
+      train_hapmap: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/hapmap_3.3.vcf.gz
+      train_indels: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/Mills_and_1000G_gold_standard.indels.vcf.gz
+      train_omni: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/variation/1000G_omni2.5.vcf.gz
+    version: 48
+  metadata:
+    batch: null
+    phenotype: ''
+  sam_ref: /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/seq/GRCh37.fa
+  summary:
+    metrics:
+      '%GC': '39'
+      Average_insert_size: 549.7
+      Average_read_length: 148.0
+      Avg_coverage: 33
+      Duplicates: 0
+      Duplicates_pct: 0.0
+      Mapped_paired_reads: 691231815
+      Mapped_reads: 693699646
+      Mapped_reads_pct: 99.64537447135082
+      Mapped_unique_reads: 696355611
+      Name: RMNISTHS_30xdownsample
+      Quality format: standard
+      Sequence length: 30-148
+      Sequences flagged as poor quality: '0'
+      Total_reads: 696168437

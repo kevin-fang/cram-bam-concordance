@@ -1,0 +1,2 @@
+Sample	Mapped_unique_reads	Mapped_reads_pct	Avg_coverage	Duplicates	Mapped_paired_reads	Duplicates_pct	Average_read_length	Sequences_flagged_as_poor_quality	Mapped_reads	%GC	Total_reads	Average_insert_size
+RMNISTHS_30xdownsample	696355611.0	99.6453744714	33.0	0.0	691231815.0	0.0	148.0	0.0	693699646.0	39.0	696168437.0	549.7

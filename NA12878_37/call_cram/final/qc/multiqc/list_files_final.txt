@@ -1,0 +1,14 @@
+RMNISTHS_30xdownsample/qc/fastqc/Per_base_N_content.tsv
+RMNISTHS_30xdownsample/qc/fastqc/Per_base_sequence_content.tsv
+RMNISTHS_30xdownsample/qc/fastqc/Per_base_sequence_quality.tsv
+RMNISTHS_30xdownsample/qc/fastqc/Per_sequence_GC_content.tsv
+RMNISTHS_30xdownsample/qc/fastqc/Per_sequence_quality_scores.tsv
+RMNISTHS_30xdownsample/qc/fastqc/Per_tile_sequence_quality.tsv
+RMNISTHS_30xdownsample/qc/fastqc/RMNISTHS_30xdownsample.zip
+RMNISTHS_30xdownsample/qc/fastqc/Sequence_Length_Distribution.tsv
+RMNISTHS_30xdownsample/qc/fastqc/fastqc_data.txt
+RMNISTHS_30xdownsample/qc/fastqc/fastqc_report.html
+RMNISTHS_30xdownsample/qc/samtools/RMNISTHS_30xdownsample-idxstats.txt
+RMNISTHS_30xdownsample/qc/samtools/RMNISTHS_30xdownsample.txt
+2019-01-18_call_cram/multiqc/report/metrics/target_info.yaml
+2019-01-18_call_cram/multiqc/report/metrics/RMNISTHS_30xdownsample_bcbio.txt

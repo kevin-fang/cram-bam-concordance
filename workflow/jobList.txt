@@ -1,3 +1,0 @@
-cram_hg3.yaml
-cram_hg1.yaml
-cram_hg2.yaml

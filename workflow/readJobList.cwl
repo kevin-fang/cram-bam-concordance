@@ -1,5 +1,3 @@
-#/usr/bin/env cwl-runner
-
 cwlVersion: v1.0
 class: ExpressionTool
 
@@ -11,24 +9,22 @@ requirements:
 - class: InlineJavascriptRequirement
 
 inputs:
-  infile:
-    type: File
-    inputBinding:
-      loadContents: true
+  inDir:
+    type: Directory
 
 outputs:
-  urls:
-    type: string[]
+  yamls:
+    type: File[]
 
-expression: "${var lines = inputs.infile.contents.split('\\n');
-               var nblines = lines.length;
-               var jobs = [];
-               for (var i = 0; i < nblines; i++) {
-                  var line = lines[i];
-                  if (line) {
-                    jobs.push(line);
-                  }
-                }
-               return { 'jobs': jobs } ;
-              }"
-
+expression: "${
+    var yamls = [];
+    for (var i = 0; i < inputs.inDir.listing.length; i++) {
+      var name = inputs.inDir.listing[i];
+      var location = name.location;
+      var basename = name.basename;
+      if (basename.includes('yaml')) {
+          yamls.push(name);
+        }
+    }
+    return {'yamls': yamls};
+}"

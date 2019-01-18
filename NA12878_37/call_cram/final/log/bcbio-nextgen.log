@@ -9,3 +9,64 @@
 [2019-01-17T21:00Z] multiprocessing: disambiguate_split
 [2019-01-17T21:00Z] Timing: alignment
 [2019-01-17T21:00Z] multiprocessing: process_alignment
+[2019-01-18T00:50Z] Timing: callable regions
+[2019-01-18T00:50Z] multiprocessing: prep_samples
+[2019-01-18T00:50Z] multiprocessing: postprocess_alignment
+[2019-01-18T00:50Z] multiprocessing: combine_sample_regions
+[2019-01-18T00:50Z] multiprocessing: calculate_sv_bins
+[2019-01-18T00:50Z] multiprocessing: calculate_sv_coverage
+[2019-01-18T00:50Z] multiprocessing: normalize_sv_coverage
+[2019-01-18T00:50Z] Timing: hla typing
+[2019-01-18T00:50Z] Timing: alignment post-processing
+[2019-01-18T00:50Z] Timing: variant calling
+[2019-01-18T00:50Z] Timing: joint squaring off/backfilling
+[2019-01-18T00:50Z] Timing: variant post-processing
+[2019-01-18T00:50Z] multiprocessing: postprocess_variants
+[2019-01-18T00:50Z] Finalizing variant calls: RMNISTHS_30xdownsample, None
+[2019-01-18T00:50Z] multiprocessing: split_variants_by_sample
+[2019-01-18T00:50Z] Timing: prepped BAM merging
+[2019-01-18T00:50Z] Timing: validation
+[2019-01-18T00:50Z] multiprocessing: compare_to_rm
+[2019-01-18T00:50Z] Timing: ensemble calling
+[2019-01-18T00:50Z] Timing: validation summary
+[2019-01-18T00:50Z] Timing: structural variation precall
+[2019-01-18T00:50Z] Timing: structural variation
+[2019-01-18T00:50Z] Timing: structural variation
+[2019-01-18T00:50Z] Timing: structural variation ensemble
+[2019-01-18T00:50Z] Timing: structural variation validation
+[2019-01-18T00:50Z] multiprocessing: validate_sv
+[2019-01-18T00:50Z] Timing: heterogeneity
+[2019-01-18T00:50Z] Timing: population database
+[2019-01-18T00:50Z] Timing: peddy check
+[2019-01-18T00:50Z] multiprocessing: run_peddy
+[2019-01-18T00:50Z] peddy is not installed, not human or sample VCFs don't match, skipping correspondence checking for None.
+[2019-01-18T00:50Z] Timing: quality control
+[2019-01-18T00:50Z] multiprocessing: pipeline_summary
+[2019-01-18T00:50Z] QC: RMNISTHS_30xdownsample fastqc
+[2019-01-18T00:50Z] QC: RMNISTHS_30xdownsample samtools
+[2019-01-18T01:23Z] Produced HTML report /cram-bam/NA12878_37/call_cram/final/qc/RMNISTHS_30xdownsample/fastqc/fastqc_report.html
+[2019-01-18T01:23Z] QC: RMNISTHS_30xdownsample qsignature
+[2019-01-18T01:23Z] QC: RMNISTHS_30xdownsample coverage
+[2019-01-18T02:53Z] QC: RMNISTHS_30xdownsample variants
+[2019-01-18T02:53Z] QC: RMNISTHS_30xdownsample picard
+[2019-01-18T02:53Z] QC: RMNISTHS_30xdownsample peddy
+[2019-01-18T03:26Z] multiprocessing: qsignature_summary
+[2019-01-18T03:26Z] multiprocessing: multiqc_summary
+[2019-01-18T03:26Z] copy qsignature
+[2019-01-18T03:26Z] summarize fastqc
+[2019-01-18T03:26Z] summarize target information
+[2019-01-18T03:26Z] summarize coverage
+[2019-01-18T03:26Z] summarize variants
+[2019-01-18T03:26Z] summarize metrics
+[2019-01-18T03:26Z] Timing: archive
+[2019-01-18T03:26Z] multiprocessing: archive_to_cram
+[2019-01-18T03:28Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; /usr/local/share/bcbio-nextgen/anaconda/bin/samtools view -T /usr/local/share/bcbio-nextgen/genomes/Hsapiens/GRCh37/seq/GRCh37.fa -@ 4 -C -x BD -x BI -o /cram-bam/NA12878_37/call_cram/final/bcbiotx/tmps2Skas/RMNISTHS_30xdownsample-fixrg.cram /cram-bam/NA12878_37/call_cram/final/bamclean/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample-fixrg.bam
+[E::cram_get_ref] Failed to populate reference for id 84
+[main_samview] failed to write the SAM header
+' returned non-zero exit status 1

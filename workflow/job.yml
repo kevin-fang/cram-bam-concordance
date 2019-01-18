@@ -1,0 +1,7 @@
+pythonScript:
+  class: File
+  path: makeJobs.py
+
+bamDirectory:
+  class: Directory
+  path: keep:ba1aa570fc924bce37b78be80a06eb8f+99131

@@ -6,7 +6,7 @@ job_template = """details:
     aligner: false
     archive: cram-lossless
   analysis: variant2
-  description: {description}
+  description: {description} BAM -> CRAM
   files:
   - {bam_file}
   genome_build: GRCh37
@@ -18,11 +18,10 @@ if os.path.isdir('./jobs'):
 else:
     os.mkdir("./jobs")
 
-with open("jobList.txt", "w") as jobs_list:
-    for subdir, dirs, files in os.walk(sys.argv[1]):
-        for f in files:
-            if f.endswith(".bam"):
-                filename = "cram_{}.yaml".format(f[:-4])
-                jobs_list.write(filename + '\n')
-                with open("jobs/" + filename, 'w') as job_file:
-                    job_file.write(job_template.format(description=f[:-4], bam_file=f))
+for subdir, dirs, files in os.walk(sys.argv[1]):
+    for f in files:
+        if f.endswith(".bam"):
+            filename = "cram_{}.yaml".format(f[:-4])
+            filepath = os.path.abspath(os.path.join(subdir, f))
+            with open("jobs/" + filename, 'w') as job_file:
+                job_file.write(job_template.format(description=f[:-4], bam_file=filepath))

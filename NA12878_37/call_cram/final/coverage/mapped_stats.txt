@@ -1,0 +1,1 @@
+{"flags":["not duplicate","not failed_quality_control","not mate_is_unmapped","not secondary_alignment","not unmapped"],"region":"","sample":"RMNISTHS_30xdownsample"}	696355611

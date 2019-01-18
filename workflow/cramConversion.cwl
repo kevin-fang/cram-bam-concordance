@@ -7,7 +7,7 @@ $namespaces:
 
 requirements:
   - class: DockerRequirement
-    dockerPull: kfangcurii/bcbio
+    dockerPull: kfangcurii/bcbioarvados
 
 hints:
   arv:RuntimeConstraints:
@@ -15,9 +15,15 @@ hints:
     keep_cache: 4096
   arv:APIRequirement: {}
 
-baseCommand: bcbio_nextgen.py 
+baseCommand: ["bcbio_nextgen.py", "/usr/local/share/bcbio-nextgen/galaxy/bcbio_system.yaml"]
+
 inputs:
   job:
-    type: string
+    type: File
     inputBinding:
-
+      position: 1
+outputs:
+  cram:
+    type: File
+    outputBinding:
+      glob: "*.cram"
