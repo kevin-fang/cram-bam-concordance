@@ -22,7 +22,7 @@ expression: "${
       var name = inputs.inDir.listing[i];
       var location = name.location;
       var basename = name.basename;
-      if (basename.includes('yaml')) {
+      if (basename.indexOf('yaml') !== -1) {
           yamls.push(name);
         }
     }
