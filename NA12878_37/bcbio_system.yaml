@@ -22,7 +22,7 @@ resources:
 
 # Location of galaxy configuration file, which has pointers to reference data
 # https://bcbio-nextgen.readthedocs.org/en/latest/contents/configuration.html#reference-genome-files
-galaxy_config: /usr/local/share/bcbio-nextgen/galaxy/
+galaxy_config: /usr/local/share/bcbio-nextgen/galaxy
 
 arvados:
   reference: su92l-4zz18-hc9ln1agfzrgn3h

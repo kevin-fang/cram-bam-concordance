@@ -1,18 +1,57 @@
-[2019-01-18T15:51Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
-[2019-01-18T15:51Z] Timing: organize samples
-[2019-01-18T15:51Z] multiprocessing: organize_samples
-[2019-01-18T15:51Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-18T15:51Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
-[2019-01-18T15:51Z] Testing minimum versions of installed programs
-[2019-01-18T15:51Z] Timing: alignment preparation
-[2019-01-18T15:51Z] multiprocessing: prep_align_inputs
-[2019-01-18T15:51Z] multiprocessing: disambiguate_split
-[2019-01-18T15:51Z] Timing: alignment
-[2019-01-18T15:51Z] multiprocessing: process_alignment
-[2019-01-18T15:51Z] Uncaught exception occurred
+[2019-01-19T00:01Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-19T00:01Z] Timing: organize samples
+[2019-01-19T00:01Z] multiprocessing: organize_samples
+[2019-01-19T00:01Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:01Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:01Z] Testing minimum versions of installed programs
+[2019-01-19T00:01Z] Timing: alignment preparation
+[2019-01-19T00:01Z] multiprocessing: prep_align_inputs
+[2019-01-19T00:01Z] multiprocessing: disambiguate_split
+[2019-01-19T00:01Z] Timing: alignment
+[2019-01-19T00:01Z] multiprocessing: process_alignment
+[2019-01-19T00:01Z] Uncaught exception occurred
 Traceback (most recent call last):
   File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
     _do_run(cmd, checks, log_stdout, env=env)
   File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
     line = s.stdout.readline()
 KeyboardInterrupt
+[2019-01-19T00:02Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-19T00:02Z] Timing: organize samples
+[2019-01-19T00:02Z] multiprocessing: organize_samples
+[2019-01-19T00:02Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:02Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:02Z] Testing minimum versions of installed programs
+[2019-01-19T00:02Z] Timing: alignment preparation
+[2019-01-19T00:02Z] multiprocessing: prep_align_inputs
+[2019-01-19T00:02Z] multiprocessing: disambiguate_split
+[2019-01-19T00:02Z] Timing: alignment
+[2019-01-19T00:02Z] multiprocessing: process_alignment
+[2019-01-19T00:02Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt
+[2019-01-19T00:02Z] System YAML configuration: /cram-bam/NA12878_37/call_cram/work/bcbio_system-merged.yaml
+[2019-01-19T00:02Z] Timing: organize samples
+[2019-01-19T00:02Z] multiprocessing: organize_samples
+[2019-01-19T00:02Z] Using input YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:02Z] Checking sample YAML configuration: /cram-bam/NA12878_37/call_cram/config/call_cram.yaml
+[2019-01-19T00:02Z] Testing minimum versions of installed programs
+[2019-01-19T00:02Z] Timing: alignment preparation
+[2019-01-19T00:02Z] multiprocessing: prep_align_inputs
+[2019-01-19T00:02Z] multiprocessing: disambiguate_split
+[2019-01-19T00:02Z] Timing: alignment
+[2019-01-19T00:02Z] multiprocessing: process_alignment
+[2019-01-19T00:02Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; samtools view -H keep:3d2a9b6d1b19382b8263acdcd4531d1c+179195/LP6005441-DNA_B03.srt.aln.bam | grep -v ^@RG > /cram-bam/NA12878_37/call_cram/work/bamclean/RMNISTHS_30xdownsample/LP6005441-DNA_B03.srt.aln-fixrg-header.txt
+[E::hts_open_format] Failed to open file keep:3d2a9b6d1b19382b8263acdcd4531d1c+179195/LP6005441-DNA_B03.srt.aln.bam
+samtools view: failed to open "keep:3d2a9b6d1b19382b8263acdcd4531d1c+179195/LP6005441-DNA_B03.srt.aln.bam" for reading: Protocol not supported
+' returned non-zero exit status 1

@@ -7,7 +7,7 @@ $namespaces:
 
 requirements:
   - class: DockerRequirement
-    dockerPull: kfangcurii/bcbioarvados
+    dockerPull: kfangcurii/bcbioexp
 
 hints:
   arv:RuntimeConstraints:

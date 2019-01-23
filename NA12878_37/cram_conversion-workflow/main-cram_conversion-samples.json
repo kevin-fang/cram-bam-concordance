@@ -1,0 +1,204 @@
+{
+    "analysis": [
+        "variant2"
+    ],
+    "config__algorithm__adapters": [
+        []
+    ],
+    "config__algorithm__align_split_size": [
+        null
+    ],
+    "config__algorithm__aligner": [
+        "False"
+    ],
+    "config__algorithm__archive": [
+        "cram-lossless"
+    ],
+    "config__algorithm__bam_clean": [
+        "remove_extracontigs"
+    ],
+    "config__algorithm__coverage_interval": [
+        null
+    ],
+    "config__algorithm__exclude_regions": [
+        []
+    ],
+    "config__algorithm__mark_duplicates": [
+        "False"
+    ],
+    "config__algorithm__nomap_split_size": [
+        250
+    ],
+    "config__algorithm__nomap_split_targets": [
+        20
+    ],
+    "config__algorithm__qc": [
+        [
+            "contamination",
+            "coverage",
+            "fastqc",
+            "peddy",
+            "picard",
+            "qsignature",
+            "samtools",
+            "variants"
+        ]
+    ],
+    "config__algorithm__recalibrate": [
+        "False"
+    ],
+    "config__algorithm__svcaller": [
+        []
+    ],
+    "config__algorithm__tools_off": [
+        []
+    ],
+    "config__algorithm__tools_on": [
+        []
+    ],
+    "config__algorithm__trim_reads": [
+        "False"
+    ],
+    "config__algorithm__variant_regions": [
+        null
+    ],
+    "description": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "files": [
+        [
+            {
+                "class": "File",
+                "path": "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam",
+                "secondaryFiles": [
+                    {
+                        "class": "File",
+                        "path": "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam.bai"
+                    }
+                ]
+            }
+        ]
+    ],
+    "genome_build": [
+        "GRCh37"
+    ],
+    "genome_resources__rnaseq__gene_bed": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/rnaseq/ref-transcripts.bed"
+        }
+    ],
+    "genome_resources__variation__dbsnp": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/variation/dbsnp-151.vcf.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/variation/dbsnp-151.vcf.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__encode_blacklist": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/ENCODE/wgEncodeDacMapabilityConsensusExcludable.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__lcr": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/repeats/LCR.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "genome_resources__variation__polyx": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/coverage/problem_regions/repeats/polyx.bed.gz.tbi"
+                }
+            ]
+        }
+    ],
+    "metadata__batch": [
+        null
+    ],
+    "metadata__phenotype": [
+        ""
+    ],
+    "reference__fasta__base": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.fa",
+            "secondaryFiles": [
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.fa.fai"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.dict"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.fa.gz"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.fa.gz.gzi"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37.fa.gz.fai"
+                },
+                {
+                    "class": "File",
+                    "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/seq/GRCh37-resources.yaml"
+                }
+            ]
+        }
+    ],
+    "reference__versions": [
+        {
+            "class": "File",
+            "path": "keep:d551264d4ac2f51afdae04f12975f4f0+40158/GRCh37/versions.csv"
+        }
+    ],
+    "resources": [
+        "{}"
+    ],
+    "rgnames__lane": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "rgnames__lb": [
+        null
+    ],
+    "rgnames__pl": [
+        "illumina"
+    ],
+    "rgnames__pu": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "rgnames__rg": [
+        "RMNISTHS_30xdownsample"
+    ],
+    "rgnames__sample": [
+        "RMNISTHS_30xdownsample"
+    ]
+}

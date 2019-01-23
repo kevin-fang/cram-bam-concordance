@@ -1,0 +1,11 @@
+[2019-01-22T15:09Z] System YAML configuration: /cram-bam/NA12878_37/test/config/jobs/bcbio_system-merged.yaml
+[2019-01-22T15:09Z] Timing: organize samples
+[2019-01-22T15:09Z] multiprocessing: organize_samples
+[2019-01-22T15:09Z] Using input YAML configuration: /cram-bam/NA12878_37/test/config/jobs/cram_LP6005441-DNA_B01.srt.aln.yaml
+[2019-01-22T15:09Z] Checking sample YAML configuration: /cram-bam/NA12878_37/test/config/jobs/cram_LP6005441-DNA_B01.srt.aln.yaml
+[2019-01-22T15:09Z] Testing minimum versions of installed programs
+[2019-01-22T15:09Z] Timing: alignment preparation
+[2019-01-22T15:09Z] multiprocessing: prep_align_inputs
+[2019-01-22T15:09Z] multiprocessing: disambiguate_split
+[2019-01-22T15:09Z] Timing: alignment
+[2019-01-22T15:09Z] multiprocessing: process_alignment

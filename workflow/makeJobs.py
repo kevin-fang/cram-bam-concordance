@@ -5,8 +5,9 @@ job_template = """details:
 - algorithm:
     aligner: false
     archive: cram-lossless
+    bam_clean: fixrg
   analysis: variant2
-  description: {description} BAM -> CRAM
+  description: {description}
   files:
   - {bam_file}
   genome_build: GRCh37
@@ -24,4 +25,4 @@ for subdir, dirs, files in os.walk(sys.argv[1]):
             filename = "cram_{}.yaml".format(f[:-4])
             filepath = os.path.abspath(os.path.join(subdir, f))
             with open("jobs/" + filename, 'w') as job_file:
-                job_file.write(job_template.format(description=f[:-4], bam_file=filepath))
+                job_file.write(job_template.format(description=f.split('.')[0], bam_file=filepath))

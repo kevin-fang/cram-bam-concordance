@@ -1,0 +1,67 @@
+[2019-01-22T14:58Z] System YAML configuration: /cram-bam/NA12878_37/cram_conversion/work/bcbio_system-merged.yaml
+[2019-01-22T14:58Z] Timing: organize samples
+[2019-01-22T14:58Z] multiprocessing: organize_samples
+[2019-01-22T14:58Z] Using input YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T14:58Z] Checking sample YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T14:58Z] Downloading GRCh37 samtools from AWS
+[2019-01-22T15:00Z] System YAML configuration: /cram-bam/NA12878_37/cram_conversion/work/bcbio_system-merged.yaml
+[2019-01-22T15:01Z] System YAML configuration: /cram-bam/NA12878_37/cram_conversion/work/bcbio_system-merged.yaml
+[2019-01-22T15:01Z] Timing: organize samples
+[2019-01-22T15:01Z] multiprocessing: organize_samples
+[2019-01-22T15:01Z] Using input YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:01Z] Checking sample YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:01Z] Testing minimum versions of installed programs
+[2019-01-22T15:01Z] Timing: alignment preparation
+[2019-01-22T15:01Z] multiprocessing: prep_align_inputs
+[2019-01-22T15:01Z] multiprocessing: disambiguate_split
+[2019-01-22T15:01Z] Timing: alignment
+[2019-01-22T15:01Z] multiprocessing: process_alignment
+[2019-01-22T15:01Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; samtools view -H keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam | grep -v ^@RG > /cram-bam/NA12878_37/cram_conversion/work/bamclean/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample-fixrg-header.txt
+[E::hts_open_format] Failed to open file keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
+samtools view: failed to open "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam" for reading: Protocol not supported
+' returned non-zero exit status 1
+[2019-01-22T15:01Z] System YAML configuration: /cram-bam/NA12878_37/cram_conversion/work/bcbio_system-merged.yaml
+[2019-01-22T15:01Z] Timing: organize samples
+[2019-01-22T15:01Z] multiprocessing: organize_samples
+[2019-01-22T15:01Z] Using input YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:01Z] Checking sample YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:01Z] Testing minimum versions of installed programs
+[2019-01-22T15:01Z] Timing: alignment preparation
+[2019-01-22T15:01Z] multiprocessing: prep_align_inputs
+[2019-01-22T15:01Z] multiprocessing: disambiguate_split
+[2019-01-22T15:01Z] Timing: alignment
+[2019-01-22T15:01Z] multiprocessing: process_alignment
+[2019-01-22T15:01Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 103, in _do_run
+    raise subprocess.CalledProcessError(exitcode, error_msg)
+CalledProcessError: Command 'set -o pipefail; samtools view -H keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam | grep -v ^@RG > /cram-bam/NA12878_37/cram_conversion/work/bamclean/RMNISTHS_30xdownsample/RMNISTHS_30xdownsample-fixrg-header.txt
+[E::hts_open_format] Failed to open file keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
+samtools view: failed to open "keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam" for reading: Protocol not supported
+' returned non-zero exit status 1
+[2019-01-22T15:02Z] System YAML configuration: /cram-bam/NA12878_37/cram_conversion/work/bcbio_system-merged.yaml
+[2019-01-22T15:02Z] Timing: organize samples
+[2019-01-22T15:02Z] multiprocessing: organize_samples
+[2019-01-22T15:02Z] Using input YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:02Z] Checking sample YAML configuration: /cram-bam/NA12878_37/cram_conversion/config/cram_conversion.yaml
+[2019-01-22T15:02Z] Testing minimum versions of installed programs
+[2019-01-22T15:02Z] Timing: alignment preparation
+[2019-01-22T15:02Z] multiprocessing: prep_align_inputs
+[2019-01-22T15:02Z] multiprocessing: disambiguate_split
+[2019-01-22T15:02Z] Timing: alignment
+[2019-01-22T15:02Z] multiprocessing: process_alignment
+[2019-01-22T15:02Z] Uncaught exception occurred
+Traceback (most recent call last):
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 23, in run
+    _do_run(cmd, checks, log_stdout, env=env)
+  File "/usr/local/share/bcbio-nextgen/anaconda/lib/python2.7/site-packages/bcbio/provenance/do.py", line 86, in _do_run
+    line = s.stdout.readline()
+KeyboardInterrupt

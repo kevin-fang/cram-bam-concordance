@@ -1,0 +1,10 @@
+details:
+- algorithm:
+    aligner: false
+    archive: cram-lossless
+  analysis: variant2
+  description: LP6005441-DNA_B01.srt.aln BAM -> CRAM
+  files:
+  - /keep/3d2a9b6d1b19382b8263acdcd4531d1c+179195/LP6005441-DNA_B01.srt.aln.bam
+  genome_build: GRCh37
+fc_name: bam_cram_conversion

@@ -1,0 +1,11 @@
+details:
+- algorithm:
+    aligner: false
+    archive: cram-lossless
+    bam_clean: fixrg
+  analysis: variant2
+  description: test
+  files:
+  - /data-sdc/kfang/cram-bam/workflow/bams/test.bam
+  genome_build: GRCh37
+fc_name: bam_cram_conversion

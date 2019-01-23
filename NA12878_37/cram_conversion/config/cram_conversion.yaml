@@ -2,13 +2,13 @@ details:
 - algorithm:
     aligner: false
     archive: cram-lossless
-    bam_clean: fixrg
+    bam_clean: remove_extracontigs
 #    variantcaller: gatk-haplotype
   analysis: variant2
   description: RMNISTHS_30xdownsample
   files:
-  - keep:3d2a9b6d1b19382b8263acdcd4531d1c+179195/LP6005441-DNA_B03.srt.aln.bam
+  - keep:ba1aa570fc924bce37b78be80a06eb8f+99131/RMNISTHS_30xdownsample.bam
   genome_build: GRCh37
-fc_name: call_cram
+fc_name: cram_conversion
 upload:
   dir: ../final
